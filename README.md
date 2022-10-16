@@ -20,8 +20,6 @@ else:
   Ejercicio 2
 Escribe una función que regrese el último elemento de una lista y que revierta el orden de la lista e imprima la lista revertida.
 
-from google.colab import drive
-drive.mount('/content/drive')
 lista = [1,2,3,4,5,6,7,8,9,10]
 ultimo_elemento = lista[9]
 def invertir_lista(lista):
